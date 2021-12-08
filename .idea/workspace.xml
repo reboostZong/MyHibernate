@@ -2,14 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e1295499-ece9-4ac9-ad8e-6f6ba92c3b16" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zcf/test/MyHibernateTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zcf/util/HibernateUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zcf/pojo/Grade.hbm.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zcf/pojo/Grade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zcf/pojo/IDCard.hbm.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zcf/pojo/IDCard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zcf/pojo/Person.hbm.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zcf/pojo/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zcf/pojo/Student.hbm.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zcf/pojo/Student.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zcf/test/MyHibernateTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zcf/test/MyHibernateTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/zcf/HibernateTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/zcf/HibernateTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hibernate.cfg.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/zcf/HibernateTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/zcf/HibernateTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,32 +60,17 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/zcf/pojo" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\IdeaProject\MyHibernate\src\main\java\com\zcf\pojo" />
       <recent name="D:\IdeaProject\MyHibernate\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MyHibernateTest.testDelete">
-    <configuration name="HibernateTest.testLifeCycle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="MyHibernate" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.zcf.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.zcf" />
-      <option name="MAIN_CLASS_NAME" value="com.zcf.HibernateTest" />
-      <option name="METHOD_NAME" value="testLifeCycle" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MyHibernateTest.testDelete" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.MyHibernateTest.testSingleOneToOne">
+    <configuration name="MyHibernateTest.testDoubleOneToMany" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MyHibernate" />
       <extension name="coverage">
         <pattern>
@@ -91,13 +80,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.zcf.test" />
       <option name="MAIN_CLASS_NAME" value="com.zcf.test.MyHibernateTest" />
-      <option name="METHOD_NAME" value="testDelete" />
+      <option name="METHOD_NAME" value="testDoubleOneToMany" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyHibernateTest.testLifeCycle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MyHibernateTest.testDoubleOneToOne" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MyHibernate" />
       <extension name="coverage">
         <pattern>
@@ -107,13 +96,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.zcf.test" />
       <option name="MAIN_CLASS_NAME" value="com.zcf.test.MyHibernateTest" />
-      <option name="METHOD_NAME" value="testLifeCycle" />
+      <option name="METHOD_NAME" value="testDoubleOneToOne" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyHibernateTest.testUpdate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MyHibernateTest.testOneToOne" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MyHibernate" />
       <extension name="coverage">
         <pattern>
@@ -123,13 +112,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.zcf.test" />
       <option name="MAIN_CLASS_NAME" value="com.zcf.test.MyHibernateTest" />
-      <option name="METHOD_NAME" value="testUpdate" />
+      <option name="METHOD_NAME" value="testOneToOne" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyHibernateTest.testtestLifeCycle2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MyHibernateTest.testSingleOneToMany" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MyHibernate" />
       <extension name="coverage">
         <pattern>
@@ -139,7 +128,23 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.zcf.test" />
       <option name="MAIN_CLASS_NAME" value="com.zcf.test.MyHibernateTest" />
-      <option name="METHOD_NAME" value="testtestLifeCycle2" />
+      <option name="METHOD_NAME" value="testSingleOneToMany" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyHibernateTest.testSingleOneToOne" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MyHibernate" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zcf.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zcf.test" />
+      <option name="MAIN_CLASS_NAME" value="com.zcf.test.MyHibernateTest" />
+      <option name="METHOD_NAME" value="testSingleOneToOne" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -147,11 +152,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MyHibernateTest.testDelete" />
-        <item itemvalue="JUnit.MyHibernateTest.testUpdate" />
-        <item itemvalue="JUnit.MyHibernateTest.testtestLifeCycle2" />
-        <item itemvalue="JUnit.MyHibernateTest.testLifeCycle" />
-        <item itemvalue="JUnit.HibernateTest.testLifeCycle" />
+        <item itemvalue="JUnit.MyHibernateTest.testSingleOneToOne" />
+        <item itemvalue="JUnit.MyHibernateTest.testDoubleOneToOne" />
+        <item itemvalue="JUnit.MyHibernateTest.testOneToOne" />
+        <item itemvalue="JUnit.MyHibernateTest.testDoubleOneToMany" />
+        <item itemvalue="JUnit.MyHibernateTest.testSingleOneToMany" />
       </list>
     </recent_temporary>
   </component>
@@ -179,7 +184,9 @@
       <updated>1638799138390</updated>
       <workItem from="1638799144778" duration="4440000" />
       <workItem from="1638847540098" duration="2669000" />
-      <workItem from="1638881816037" duration="4609000" />
+      <workItem from="1638881816037" duration="5231000" />
+      <workItem from="1638923542530" duration="1216000" />
+      <workItem from="1638967385892" duration="4570000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1638805333293</created>
@@ -188,7 +195,14 @@
       <option name="project" value="LOCAL" />
       <updated>1638805333294</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="life cycle">
+      <created>1638892676577</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1638892676577</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -196,76 +210,77 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init" />
-    <option name="LAST_COMMIT_MESSAGE" value="init" />
+    <MESSAGE value="life cycle" />
+    <option name="LAST_COMMIT_MESSAGE" value="life cycle" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="765" y="213" key="#com.intellij.ide.util.MemberChooser" timestamp="1638800740444">
+    <state x="765" y="213" key="#com.intellij.ide.util.MemberChooser" timestamp="1638974023615">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="213" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1638800740444" />
+    <state x="765" y="213" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1638974023615" />
     <state x="715" y="226" key="#xdebugger.evaluate" timestamp="1638888749715">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="715" y="226" key="#xdebugger.evaluate/0.0.1920.1040@0.0.1920.1040" timestamp="1638888749715" />
-    <state x="572" y="116" key="CommitChangelistDialog2" timestamp="1638805331150">
+    <state x="572" y="116" key="CommitChangelistDialog2" timestamp="1638892674199">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="572" y="116" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1638805331150" />
+    <state x="572" y="116" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1638892674199" />
     <state x="740" y="264" key="FileChooserDialogImpl" timestamp="1638805234357">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="264" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1638805234357" />
-    <state width="1877" height="348" key="GridCell.Tab.0.bottom" timestamp="1638892640711">
+    <state width="1877" height="303" key="GridCell.Tab.0.bottom" timestamp="1638974987282">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1638892640711" />
-    <state width="1877" height="348" key="GridCell.Tab.0.center" timestamp="1638892640711">
+    <state width="1877" height="303" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1638974987282" />
+    <state width="1877" height="303" key="GridCell.Tab.0.center" timestamp="1638974987282">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1638892640711" />
-    <state width="1877" height="348" key="GridCell.Tab.0.left" timestamp="1638892640711">
+    <state width="1877" height="303" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1638974987282" />
+    <state width="1877" height="303" key="GridCell.Tab.0.left" timestamp="1638974987282">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1638892640711" />
-    <state width="1877" height="348" key="GridCell.Tab.0.right" timestamp="1638892640711">
+    <state width="1877" height="303" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1638974987282" />
+    <state width="1877" height="303" key="GridCell.Tab.0.right" timestamp="1638974987282">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1638892640711" />
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1638892640627">
+    <state width="1877" height="303" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1638974987282" />
+    <state width="1877" height="303" key="GridCell.Tab.1.bottom" timestamp="1638974987283">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1638892640627" />
-    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1638892640627">
+    <state width="1877" height="303" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1638974987283" />
+    <state width="1877" height="303" key="GridCell.Tab.1.center" timestamp="1638974987283">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1638892640627" />
-    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1638892640627">
+    <state width="1877" height="303" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1638974987283" />
+    <state width="1877" height="303" key="GridCell.Tab.1.left" timestamp="1638974987283">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1638892640627" />
-    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1638892640627">
+    <state width="1877" height="303" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1638974987283" />
+    <state width="1877" height="303" key="GridCell.Tab.1.right" timestamp="1638974987283">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1638892640627" />
-    <state x="552" y="256" key="Vcs.Push.Dialog.v2" timestamp="1638805346779">
+    <state width="1877" height="303" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1638974987283" />
+    <state x="552" y="256" key="Vcs.Push.Dialog.v2" timestamp="1638892681573">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1638805346779" />
-    <state x="652" y="347" key="com.intellij.ide.util.TipDialog" timestamp="1638882004816">
+    <state x="552" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1638892681573" />
+    <state x="652" y="347" key="com.intellij.ide.util.TipDialog" timestamp="1638967392941">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="652" y="347" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1638882004816" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1638804722552">
+    <state x="652" y="347" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1638967392941" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1638974718319">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1638804722552" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1638974718319" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/zcf/test/MyHibernateTest.java</url>
-          <line>38</line>
+          <line>46</line>
           <option name="timeStamp" value="10" />
         </line-breakpoint>
       </breakpoints>

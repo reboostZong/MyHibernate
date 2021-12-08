@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+    <class name="com.zcf.pojo.Person">
+        <id name="id">
+<!--            基于IDCard对应的主键-->
+            <generator class="foreign">
+                <param name="property">idCard</param>
+            </generator>
+            
+        </id>
+
+        <property name="name" column="name"/>
+        <property name="age"/>
+
+<!--        constrained="true"表明基于主键一对一关系  -->
+
+        <one-to-one name="idCard" constrained="true"/>
+
+
+    </class>
+</hibernate-mapping>

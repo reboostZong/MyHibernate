@@ -21,6 +21,10 @@
 
 <!--		映射-->
 		<mapping resource="User.hbm.xml"/>
+		<mapping resource="Student.hbm.xml"/>
+		<mapping resource="Grade.hbm.xml"/>
+		<mapping resource="IDCard.hbm.xml"/>
+		<mapping resource="Person.hbm.xml"/>
 
 
 	</session-factory>
